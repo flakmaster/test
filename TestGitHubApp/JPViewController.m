@@ -11,12 +11,14 @@
 @interface JPViewController ()
 
 @property (strong, nonatomic) IBOutlet UIButton *pbLogin;
+@property (strong, nonatomic) IBOutlet UIButton *pbTest;
 
 @end
 
 @implementation JPViewController
 
 @synthesize pbLogin = _pbLogin;
+@synthesize pbTest = _pbTest;
 
 - (void)viewDidLoad
 {
